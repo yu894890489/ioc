@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="w-full h-64px flex flex-nowrap justify-evenly">
     <div class="w-192px h-64px bg-[url('@/assets/screen/common-used-area-bg.png')] bg-[length:100%_100%] relative">
       <div class="absolute right-11px top-11px flex flex-col h-42px w-70px">
         <span class="w-full text-[#00E5FFFF] text-14px font-thin"> 已使用区域 </span>
