@@ -92,6 +92,33 @@ export const constantRoutes: RouteRecordRaw[] = [
   {
     path: '/screen',
     component: () => import('@/views/screen/index.vue'),
+    redirect: '/screen/zhihuitingchetaishi',
+    children: [
+      {
+        path: '/screen/zhihuitingchetaishi',
+        component: () => import('@/views/screen/views/zhihuitingchetaishi/zhihuitingchetaishi-left.vue'),
+      },
+      {
+        path: '/screen/zhihuitingchetaishi/left',
+        component: () => import('@/views/screen/views/zhihuitingchetaishi/zhihuitingchetaishi-left.vue'),
+      },
+      {
+        path: '/screen/zhihuitingchetaishi/right',
+        component: () => import('@/views/screen/views/zhihuitingchetaishi/zhihuitingchetaishi-right.vue'),
+      },
+      {
+        path: '/screen/zongtitaishi',
+        component: () => import('@/views/screen/views/zongtitaishi/zongtitaishi-left.vue'),
+      },
+      {
+        path: '/screen/zongtitaishi/left',
+        component: () => import('@/views/screen/views/zongtitaishi/zongtitaishi-left.vue'),
+      },
+      {
+        path: '/screen/zongtitaishi/right',
+        component: () => import('@/views/screen/views/zongtitaishi/zongtitaishi-right.vue'),
+      },
+    ]
   },
 ];
 
