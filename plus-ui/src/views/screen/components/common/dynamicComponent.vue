@@ -6,7 +6,7 @@
 <script setup lang="ts">
 const props = defineProps({
     component: {
-        type: String,
+        type: Object,
         default: () => ({})
     }
 })

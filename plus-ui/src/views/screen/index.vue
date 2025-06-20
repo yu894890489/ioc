@@ -1,24 +1,12 @@
 <template>
     <div class="w-full h-full m-0 p-0 relative bg-[#0c1f35] root">
-        <div class="absolute top-92px left-92px w-424px h-606px">
-            <ProjectInfo></ProjectInfo>
-        </div>
-        <div class="absolute top-712px left-92px w-424px h-303px">
-            <PersonCarChange></PersonCarChange>
-        </div>
-        <div class="absolute top-92px right-24px w-424px h-303px">
-            <ParkOverallInfo></ParkOverallInfo>
-        </div>
-        <div class="absolute top-326px right-24px w-424px h-303px">
-            <OfficeInfo></OfficeInfo>
-        </div>
+       <DynamicComponent :component="ZongtitaishiRight"></DynamicComponent>
     </div>
 </template>
 <script setup lang="tsx">
-import ProjectInfo from './components/projectInfo/index.vue'
-import PersonCarChange from './components/personCarChange/index.vue'
-import ParkOverallInfo from './components/parkOverallInfo/index.vue'
-import OfficeInfo from './components/officeInfo/index.vue'
+import DynamicComponent from './components/common/dynamicComponent.vue'
+import ZongtitaishiLeft from './views/zongtitaishi/zongtitaishi-left.vue'
+import ZongtitaishiRight from './views/zongtitaishi/zongtitaishi-right.vue'
 // 设计稿的基准尺寸
 const designWidth = 1920
 const designHeight = 1080
@@ -45,14 +33,14 @@ const calculateScale = () => {
 
 // 页面加载时计算一次
 onMounted(() => {
-    calculateScale()
-    // 监听窗口大小变化
-    window.addEventListener('resize', calculateScale)
+    // calculateScale()
+    // // 监听窗口大小变化
+    // window.addEventListener('resize', calculateScale)
 })
 
 // 组件卸载时清理事件监听
 onUnmounted(() => {
-    window.removeEventListener('resize', calculateScale)
+    // window.removeEventListener('resize', calculateScale)
 })
 
 </script>
