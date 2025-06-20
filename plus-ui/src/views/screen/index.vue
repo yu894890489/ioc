@@ -47,8 +47,10 @@ onUnmounted(() => {
 <style lang="scss" scoped>
 .root {
     // 设置固定的设计稿尺寸
-    width: 1920px;
-    height: 1080px;
+    // width: 1920px;
+    // height: 1080px;
+
+    overflow: hidden;
     
     // 设置变换原点为左上角
     transform-origin: top left;

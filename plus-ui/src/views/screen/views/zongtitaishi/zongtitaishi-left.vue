@@ -1,9 +1,9 @@
-<template lang="">
-    <div>
-        <div class="absolute  w-424px h-606px">
+<template >
+    <div class="flex flex-col gap-14px">
+        <div class="  w-424px h-606px">
             <ProjectInfo></ProjectInfo>
         </div>
-        <div class="absolute  w-424px h-303px">
+        <div class="  w-424px h-303px">
             <PersonCarChange></PersonCarChange>
         </div>
     </div>

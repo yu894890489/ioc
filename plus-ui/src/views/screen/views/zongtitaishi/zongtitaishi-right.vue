@@ -1,9 +1,9 @@
 <template lang="">
-    <div>
-        <div class="absolute top-92px  w-424px h-303px">
+    <div class="flex flex-col gap-14px">
+        <div class=" w-424px h-303px">
             <ParkOverallInfo></ParkOverallInfo>
         </div>
-        <div class="absolute top-326px  w-424px h-303px">
+        <div class=" w-424px h-303px">
             <OfficeInfo></OfficeInfo>
         </div>
     </div>

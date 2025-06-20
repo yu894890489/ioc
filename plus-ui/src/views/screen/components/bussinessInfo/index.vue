@@ -5,12 +5,12 @@
             <div class="w-414px h-39px bg-[url('@/assets/screen/bussiness-area-info.png')] bg-[length:100%_100%]">
 
             </div>
+            
         </div>
 
     </Common>
 </template>
 <script setup lang="ts">
-    import Common from '../common/index.vue'
+import Common from '../common/index.vue'
 </script>
-<style scoped lang="scss">
-</style>
+<style scoped lang="scss"></style>

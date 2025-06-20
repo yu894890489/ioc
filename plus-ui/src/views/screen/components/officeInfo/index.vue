@@ -18,6 +18,23 @@
                     </span>
                 </div>
             </div>
+
+            <div class="w-full h-64px flex flex-nowrap justify-between" >
+                <div class="w-192px h-64px bg-[url('@/assets/screen/common-used-area-bg.png')] bg-[length:100%_100%]">
+                    <div class=" relative right-0 flex flex-col items-center ">
+                        <span class="text-[#fff] text-14px font-400px">
+                            已使用面积
+                        </span>
+                        <div class="">
+                            <span class="text-[#fff] text-14px font-400px">
+                                {{ officeInfo.usedAreaPercent }}
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-192px h-64px bg-[url('@/assets/screen/common-unused-area-bg.png')] bg-[length:100%_100%]">
+                </div>
+            </div>
         </div>
 
     </Common>

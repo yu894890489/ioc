@@ -11,8 +11,8 @@
 
             </div>
 
-            <div class="text-[#fff]">
-                123
+            <div class=" w-404px h-263px bg-[url('@/assets/screen/park-overall-bg.png')] bg-[length:100%_100%]">
+
             </div>
         </div>
     </Common>
