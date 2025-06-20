@@ -7,11 +7,11 @@
             <span class="font-200px text-18px text-[#f5f6f7] leading-7 tracking-[2px] text-left not-italic normal-case" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);">园区总体情况展示</span>
         </div> -->
 
-            <div class="w-414px h-39px bg-[url('@/assets/screen/park-overall-title.png')] bg-[length:100%_100%]">
+            <div class="w-414px h-39px bg-[url('@/assets/screen/zongtitaishi/park-overall-title.png')] bg-[length:100%_100%]">
 
             </div>
 
-            <div class=" w-404px h-263px bg-[url('@/assets/screen/park-overall-bg.png')] bg-[length:100%_100%]">
+            <div class=" w-404px h-263px bg-[url('@/assets/screen/zongtitaishi/park-overall-bg.png')] bg-[length:100%_100%]">
 
             </div>
         </div>

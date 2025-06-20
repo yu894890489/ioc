@@ -118,6 +118,14 @@ export const constantRoutes: RouteRecordRaw[] = [
         path: '/screen/zongtitaishi/right',
         component: () => import('@/views/screen/views/zongtitaishi/zongtitaishi-right.vue'),
       },
+      {
+        path: '/screen/tongxingtaishi/right',
+        component: () => import('@/views/screen/views/tongxingtaishi/tongxingtaishi-right.vue'),
+      },
+      {
+        path: '/screen/tongxingtaishi/left',
+        component: () => import('@/views/screen/views/tongxingtaishi/tongxingtaishi-left.vue'),
+      },
     ]
   },
 ];

@@ -2,7 +2,7 @@
     <Common name="personCardInfo">
 
         <div class="w-full h-full">
-            <div class="w-414px h-39px bg-[url('@/assets/screen/personcard-info-title.png')] bg-[length:100%_100%]">
+            <div class="w-414px h-39px bg-[url('@/assets/screen/zongtitaishi/personcard-info-title.png')] bg-[length:100%_100%]">
 
             </div>
 
@@ -16,8 +16,8 @@
 <script setup lang="ts">
 import Common from '../common/index.vue'
 import * as echarts from 'echarts';
-import PersonPoint from '@/assets/screen/personcard-chart-person-point.png'
-import CarPoint from '@/assets/screen/personcard-chart-car-point.png'
+import PersonPoint from '@/assets/screen/zongtitaishi/personcard-chart-person-point.png'
+import CarPoint from '@/assets/screen/zongtitaishi/personcard-chart-car-point.png'
 
 import { storeToRefs } from 'pinia'
 import { usePersonCarChangeStore } from '../../store'

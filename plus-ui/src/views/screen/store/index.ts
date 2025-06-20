@@ -6,6 +6,7 @@ import { useProjectInfoStore } from './substore/projectInfoStore';
 import { useParkOverallInfoStore } from './substore/parkOverallInfoStore';
 import { useOfficeInfoStore } from './substore/officeInfoStore';
 import { useBussinessInfoStore } from './substore/bussinessInfoStore';
+import { usePersonInOutInfoStore } from './substore/personInOutInfo';
 
 /**
  * 权限控制 控制组件的显示与隐藏
@@ -16,7 +17,8 @@ export const useCommonStore = defineStore('CommonStore', () => {
     parkOverallInfo: true,
     projectInfo: true,
     officeInfo: true,
-    bussinessInfo: true
+    bussinessInfo: true,
+    personInOutInfo: true
   });
   return {
     permission
@@ -26,4 +28,4 @@ export const useCommonStore = defineStore('CommonStore', () => {
 /**
  * 导出子store
  */
-export { usePersonCarChangeStore, useProjectInfoStore, useParkOverallInfoStore, useOfficeInfoStore, useBussinessInfoStore };
+export { usePersonCarChangeStore, useProjectInfoStore, useParkOverallInfoStore, useOfficeInfoStore, useBussinessInfoStore, usePersonInOutInfoStore };

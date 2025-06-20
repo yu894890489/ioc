@@ -1,14 +1,14 @@
 <template>
     <Common name="projectInfo">
         <div class="w-full h-full relative flex flex-col">
-            <div class=" w-414px h-39px bg-[url('@/assets/screen/project-info-title.png')] bg-[length:100%_100%]">
+            <div class=" w-414px h-39px bg-[url('@/assets/screen/zongtitaishi/project-info-title.png')] bg-[length:100%_100%]">
 
             </div>
 
             <div
-                class="w-414px h-203px mt-10px pl-15px pr-15px pt-20px pb-18px bg-[url('@/assets/screen/project-info-content-wrapper.png')] bg-[length:100%_100%] project-info-content-wrapper-text">
+                class="w-414px h-203px mt-10px pl-15px pr-15px pt-20px pb-18px bg-[url('@/assets/screen/zongtitaishi/project-info-content-wrapper.png')] bg-[length:100%_100%] project-info-content-wrapper-text">
 
-                <img src="@/assets/screen/project-info-content-icon.png" alt="图标"
+                <img src="@/assets/screen/zongtitaishi/project-info-content-icon.png" alt="图标"
                     class=" w-1.5rem align-middle inline-block">
                 {{ projectInfo.description }}
             </div>

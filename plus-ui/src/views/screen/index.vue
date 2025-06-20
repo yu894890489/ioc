@@ -48,6 +48,9 @@ onUnmounted(() => {
     // width: 1920px;
     // height: 1080px;
 
+    // 背景透明
+    background-color: transparent !important;
+
     overflow: hidden;
     
     // 设置变换原点为左上角

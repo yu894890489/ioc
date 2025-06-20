@@ -2,12 +2,12 @@
     <Common name="bussinessInfo" class="w-full h-full">
 
         <div class="w-full h-full flex flex-col gap-14px ">
-            <div class="w-414px h-39px bg-[url('@/assets/screen/bussiness-area-title.png')] bg-[length:100%_100%]">
+            <div class="w-414px h-39px bg-[url('@/assets/screen/zongtitaishi/bussiness-area-title.png')] bg-[length:100%_100%]">
 
             </div>
 
             
-            <TotalArea title="商业区总面积:" :total="bussinessInfo.totalArea" bg-url="@/assets/screen/bussiness-area-info.png"></TotalArea>
+            <TotalArea class="bg-[url('@/assets/screen/zongtitaishi/bussiness-area-info.png')] bg-[length:100%_100%]" title="商业区总面积:" :total="bussinessInfo.totalArea"></TotalArea>
 
             <UseAreaDetail  :usedAreaPercent="bussinessInfo.usedAreaPercent"
                 :unusedAreaPercent="bussinessInfo.unusedAreaPercent" />

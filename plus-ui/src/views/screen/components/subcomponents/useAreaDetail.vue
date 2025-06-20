@@ -1,6 +1,6 @@
 <template>
   <div class="w-full h-64px flex flex-nowrap justify-evenly">
-    <div class="w-192px h-64px bg-[url('@/assets/screen/common-used-area-bg.png')] bg-[length:100%_100%] relative">
+    <div class="w-192px h-64px bg-[url('@/assets/screen/zongtitaishi/common-used-area-bg.png')] bg-[length:100%_100%] relative">
       <div class="absolute right-11px top-11px flex flex-col h-42px w-70px">
         <span class="w-full text-[#00E5FFFF] text-14px font-thin"> 已使用区域 </span>
         <div class="w-full h-full flex flex-nowrap items-baseline">
@@ -11,7 +11,7 @@
         </div>
       </div>
     </div>
-    <div class="w-192px h-64px bg-[url('@/assets/screen/common-unused-area-bg.png')] bg-[length:100%_100%] relative">
+    <div class="w-192px h-64px bg-[url('@/assets/screen/zongtitaishi/common-unused-area-bg.png')] bg-[length:100%_100%] relative">
       <div class="absolute right-11px top-11px flex flex-col h-42px w-70px">
         <span class="w-full text-[#01d8b4] text-14px font-thin"> 空闲区域 </span>
         <div class="w-full h-full flex flex-nowrap items-baseline">
