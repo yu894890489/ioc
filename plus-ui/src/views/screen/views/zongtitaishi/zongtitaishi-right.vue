@@ -1,9 +1,12 @@
 <template lang="">
     <div class="flex flex-col gap-14px">
-        <div class=" w-424px h-303px">
+        <div class=" w-424px ">
             <ParkOverallInfo></ParkOverallInfo>
         </div>
-        <div class=" w-424px h-303px">
+        <div class=" w-424px ">
+            <OfficeInfo></OfficeInfo>
+        </div>
+        <div class=" w-424px">
             <OfficeInfo></OfficeInfo>
         </div>
     </div>

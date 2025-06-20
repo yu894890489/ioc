@@ -5,7 +5,7 @@ export const useOfficeInfoStore = defineStore('OfficeInfoStore', () => {
   const officeInfo = ref({
     officeArea: '155338',
     usedAreaPercent: '65',
-    unusedArea: '35'
+    unusedAreaPercent: '35'
   });
   return {
     officeInfo
