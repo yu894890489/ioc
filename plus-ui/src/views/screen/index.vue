@@ -1,12 +1,10 @@
 <template>
     <div class="w-full h-full m-0 p-0 relative bg-[#0c1f35] root">
-       <DynamicComponent :component="ZongtitaishiRight"></DynamicComponent>
+        <router-view />
     </div>
 </template>
 <script setup lang="tsx">
-import DynamicComponent from './components/common/dynamicComponent.vue'
-import ZongtitaishiLeft from './views/zongtitaishi/zongtitaishi-left.vue'
-import ZongtitaishiRight from './views/zongtitaishi/zongtitaishi-right.vue'
+
 // 设计稿的基准尺寸
 const designWidth = 1920
 const designHeight = 1080
