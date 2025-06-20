@@ -88,7 +88,11 @@ export const constantRoutes: RouteRecordRaw[] = [
         meta: { title: '个人中心', icon: 'user' }
       }
     ]
-  }
+  },
+  {
+    path: '/screen',
+    component: () => import('@/views/screen/index.vue'),
+  },
 ];
 
 // 动态路由，基于用户权限动态去加载
