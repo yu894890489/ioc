@@ -17,7 +17,8 @@ const props = defineProps({
 const { permission } = storeToRefs(useCommonStore())
 
 const isShow = computed(() => {
-    return permission.value[props.name]
+    return true
+    // return permission.value[props.name]
 })
 
 </script>
